@@ -1,0 +1,4 @@
+#!/bin/sh
+
+this_dir="$(dirname "$0")"
+"$this_dir/install_vim"

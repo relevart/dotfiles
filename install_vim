@@ -1,0 +1,5 @@
+#!/bin/sh
+
+this_dir="$(dirname "$0")"
+echo "installing vim"
+ln -s $this_dir/vimrc ~/.vimrc
