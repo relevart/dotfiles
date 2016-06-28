@@ -5,7 +5,6 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
-Plugin 'Valloric/YouCompleteMe'
 Plugin 'majutsushi/tagbar'
 Plugin 'derekwyatt/vim-fswitch'
 
@@ -62,3 +61,8 @@ nmap <F8> :TagbarToggle<CR>
 
 nmap <F4> :FSHere<CR> 
 " nmap <F4> :FSSplitLeft<CR>
+
+vnoremap // y/<C-R>"<CR>
+" use // to search for visually selected text
+
+color peachpuff
