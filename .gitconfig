@@ -1,0 +1,16 @@
+[core]
+	editor = vim
+[user]
+	name = Max Shi
+	email = meixuanshi@gmail.com
+[log]
+	date = relative
+[alias]
+	l = log --color --pretty=format:'%C(yellow)%h %C(blue)%>(14)%cd %C(green)%<(7)%aN %C(red)%d %C(reset)%s'
+	b = branch -vv
+	s = status
+	d = diff
+[color]
+	ui = auto
+[branch]
+	autoSetupRebase = always
